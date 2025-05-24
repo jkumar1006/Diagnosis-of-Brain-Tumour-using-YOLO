@@ -51,54 +51,32 @@ This project combines the power of object detection and classification to build 
 
 ---
 
-## 🧱 Architecture
-
-```mermaid
-graph TD
-    A[MRI Image Input] --> B[Preprocessing: Thresholding & Grayscale]
-    B --> C[YOLOv4 Tumor Detection]
-    C --> D[CNN Tumor Classification]
-    D --> E[Benign or Malignant Output]
-
-
 ## 🚀 How to Use
-Clone the Repository
-
-bash
-Copy
-Edit
+1. **Clone the Repository**
 git clone https://github.com/yourusername/brain-tumor-detection-yolo-cnn.git
 cd brain-tumor-detection-yolo-cnn
-Set up Environment
 
-bash
-Copy
-Edit
+2. **Set up Environment**
 pip install -r requirements.txt
-Train YOLOv4 Model
 
-Label your dataset with bounding boxes.
+3. **Train YOLOv4 Model**
 
-Modify the YOLO config files as per your dataset.
+   - Label your dataset with bounding boxes.
 
-Use Darknet or a Python wrapper to begin training.
+   - Modify the YOLO config files as per your dataset.
 
-Run Detection
+   - Use Darknet or a Python wrapper to begin training.
 
-bash
-Copy
-Edit
+4. **Run Detection**
 python detect.py --image ./test/image1.jpg
-Classify Tumor
 
-bash
-Copy
-Edit
+5. **Classify Tumor**
 python classify.py --image ./detected/image1.jpg
-View Results
 
-Predictions and labels will be shown on the image.
+6. **View Results**
 
-Performance metrics will be saved as graphs and tables.
+   - Predictions and labels will be shown on the image.
+
+   - Performance metrics will be saved as graphs and tables.
 
 ---
