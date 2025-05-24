@@ -55,10 +55,11 @@ This project combines the power of object detection and classification to build 
 
 ```mermaid
 graph TD
-    A[MRI Image Input] --> B[Preprocessing (Thresholding, Grayscale)]
+    A[MRI Image Input] --> B[Preprocessing: Thresholding & Grayscale]
     B --> C[YOLOv4 Tumor Detection]
     C --> D[CNN Tumor Classification]
     D --> E[Benign or Malignant Output]
+
 
 ## 🚀 How to Use
 Clone the Repository
