@@ -53,8 +53,8 @@ This project combines the power of object detection and classification to build 
 
 ## 🚀 How to Use
 1. **Clone the Repository**
-git clone https://github.com/yourusername/brain-tumor-detection-yolo-cnn.git
-cd brain-tumor-detection-yolo-cnn
+git clone [https://github.com/jkumar1006/Diagnosis-of-Brain-Tumour-using-YOLO.git]
+cd Diagnosis-of-Brain-Tumour-using-YOLO
 
 2. **Set up Environment**
 pip install -r requirements.txt
